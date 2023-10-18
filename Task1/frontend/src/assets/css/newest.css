@@ -1,0 +1,122 @@
+.action-card {
+    background-color: white;
+    padding: 20px;
+    padding-top: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .action-card h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 35px;
+    margin-top: 15px;
+}
+  
+  .action-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .action-card li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+
+  
+  .action-card li span {
+    font-size: 16px;
+  }
+  
+  .action-card li span {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .action-card li span:after {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-left: 5px;
+  }
+  .action-card li .username {
+    padding-left: 4px;
+    padding-bottom: -5px;
+    font-size: 12px;
+    color: #999;
+    display: block;
+  }
+
+  .action-card li .member-container {
+    position: relative;
+  }
+  
+  .action-card li .notification {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    font-size: 10px;
+    color: white; /* Set text color to white */
+    background-color: #999; /* Set background color to gray */
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  }
+  
+  /* .action-card li img {
+    width: 40px;
+    height: 40px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    margin-right: 10px;
+    outline: 2px solid #1da1f2;
+  }
+   */
+  
+   .action-card li img {
+    width: 40px;
+    height: 40px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    margin-right: 10px;
+    position: relative;
+  
+    /* Add a blue inner border */
+    border: 2px solid #1da1f2;
+    border-radius: 0;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  }
+  
+  /* Add a white outer border */
+  .action-card li img:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 48px;
+    height: 48px;
+    border: 2px solid white;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  }
+
+  .join-button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  
+  .group-actionss {
+    display: flex;
+    justify-content: flex-end;
+    width: 7%;
+    margin-top: 35px;
+  }
