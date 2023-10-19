@@ -67,7 +67,6 @@ For Level 3, I have integrated MongoDB to store user data provided from the form
 
 - Back-end: Node.js (Express.js)
 - Database: MongoDB
-- MongoDB
 
 ### Project Structure
 
